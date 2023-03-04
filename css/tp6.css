@@ -1,0 +1,27 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.boton {
+    border-radius: 15px;
+    border-color: goldenrod;
+    cursor: pointer;
+}
+
+.boton:hover{
+    background-color: green;
+    color: white;
+    border-radius: 30px;
+}
+
+.boton::before{
+    content: "Pasa por Encima";
+}
+
+.boton:hover::before{
+    content: "¡Hecho!";
+}
